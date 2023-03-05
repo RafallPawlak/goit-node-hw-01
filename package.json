@@ -1,0 +1,20 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "GoIt homework node.js 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js",
+    "start:dev": "nodemon index",
+    "lint": "eslint ."
+  },
+  "author": "Rafał Pawlak",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
